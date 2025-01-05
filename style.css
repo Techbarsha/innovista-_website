@@ -1,0 +1,229 @@
+/* General Theme Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar Logo Circle */
+.logo-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+}
+
+/* Navbar adjustments */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10; 
+}
+
+/* Navbar text color */
+.navbar .nav-link {
+    color: #ffffff; /* Default color for all links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ff7eb3;
+}
+
+/* Navbar active link */
+.navbar .nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('assets/hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.hero-section .hero-content a.btn {
+    margin-top: 20px;  
+    font-size: 18px; 
+    padding: 12px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+/* Product Gallery */
+.product-gallery img {
+    transition: transform 0.3s ease;
+    margin: 10px 0;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the modal */
+.modal-content {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+ /* Popup Styling */
+        .cart-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .cart-popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+  /* Reviews Section */
+#reviews {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.review-card {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.review-card h5 {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #343a40;
+}
+
+.review-card p.lead {
+    font-style: italic;
+    color: #555;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #343a40;
+    border-radius: 50%;
+}
+
+.text-warning {
+    color: #ffc107; /* Gold stars for ratings */
+}
+
+#why-innovista h2 {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff6b5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#why-innovista h4 {
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#why-innovista p {
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Tales of Green Section */
+#tales-of-green {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 60px 0;
+}
+
+#tales-of-green h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#tales-of-green p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+#tales-of-green .form-control {
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+#tales-of-green .btn-success {
+    background-color: #006400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+
+/* Footer adjustments */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
