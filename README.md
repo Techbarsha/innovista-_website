@@ -36,7 +36,7 @@ Innovista is an eco-friendly tech accessories company that offers stylish, durab
 ## 📈 Analytics and Insights
 We use AI-driven analytics tools like **Google Analytics** to track website traffic and customer behavior to continuously improve the user experience.
 
-# ![Alt text](https://github.com/Techbarsha/innovista_website/blob/main/PROTOTYPE.png)
+ ![Alt text](https://github.com/Techbarsha/innovista_website/blob/main/PROTOTYPE.png)
 
 
 ## 🚀 Getting Started
