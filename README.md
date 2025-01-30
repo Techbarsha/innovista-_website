@@ -1,5 +1,5 @@
 # Innovista: Eco-Friendly Tech Accessories
-
+# https://github.com/Techbarsha/innovista_website/blob/main/PROTOTYPE.png
 Innovista is an eco-friendly tech accessories company that offers stylish, durable, and sustainable products, including **smartphone cases**, **tablet covers**, and **laptop sleeves**. The company focuses on combining environmental consciousness with innovative design, providing customers with a stylish way to reduce their environmental footprint.
 
 ## 📱 Our Featured Products:
