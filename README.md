@@ -60,3 +60,6 @@ npm start
 - 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+❤️ Thank You!
+*Thank you for checking out Innovista! We appreciate your support in our mission to make tech accessories stylish and sustainable. Every purchase you make helps us reduce environmental impact and make the world a greener place. Stay tuned for more eco-friendly innovations!*
+
